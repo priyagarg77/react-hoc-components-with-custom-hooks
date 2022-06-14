@@ -1,0 +1,26 @@
+header {
+  width: 100%;
+  background-color: #212121;
+}
+
+nav {
+  padding: 20px;
+}
+
+.navbar {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar li:not(:first-child) {
+  margin-left: 30px;
+}
